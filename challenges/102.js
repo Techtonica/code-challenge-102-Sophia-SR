@@ -13,7 +13,11 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Relational_operators
 
 function largestInt(a,b){
-  return // your code here
+  if (a > b){
+   return a;   
+  } else if (b > a) {
+   return b;  
+  }
 }
 
 module.exports = largestInt;
